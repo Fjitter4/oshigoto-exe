@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background:url("../IMAGE/bgline.png");
+	animation: bgscroll 6s ease-out infinite;
+	background-color: #00421A;
+}
+
+@-webkit-keyframes bgscroll {
+ 0% {background-position: 0 0;}
+ 100% {background-position: 0 256px;}
+}
+
+@keyframes bgscroll {
+ 0% {background-position: 0 0;}
+ 100% {background-position: 0 256px;}
+}
+
+header{
+	background-color: #00421A;
+}
+
+.headerlist{
+	background-color: #00421A;
+	position: relative;
+	float: left;
+	width: 20%;
+	height: 150px;
+}
+
+.headerlist a img{
+	position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+	width: 90%;
+	max-width: 250px;
+	max-height: 150px;
+}
+
+
+
+.main{
+    clear: left;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.specialdiv{
+	clear: left;
+    margin: 40px;
+    text-align: center;
+    border: inset;
+    background-color: #000000;
+}
+
+.specialdiv img{
+	width: 100%;
+}
+
+.specialdiv a{
+    color: #2BF900;
+    font-size: 20px;
+}
+
+.specialdiv p{
+    color: #ffffff;
+}
+
+
+
+.noticebox{
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+.noticebox h2{
+	color: #ffffff;
+	text-align: center;
+	font-size: 30px;
+}
+
+.notice{
+	width: 80%;
+	height: 520px;
+	margin: 0px auto;
+	color: #ffffff;
+	background-color: #000000;
+	overflow: scroll;
+	border: 8px inset #999999;
+}
+
+
+.linksbox{
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.linksbox h2{
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.linksbox img{
+	width: 80%;
+	max-width: 330px;
+}
+
+footer{
+	clear: left;
+	text-align: center;
+	background-color: #082A00;
+	height: auto;
+}
+
+footer img{
+	width: 35%;
+}
+
+.copyright{
+	text-align: center;
+	background-color: #082A00;
+	height: auto;
+    color: #ffffff;
+}
+@media (max-width: 767px){
+
+	
+#logo{
+	width: 100%;
+}
+
+.headerlist{
+	width: 50%;
+}
+	
+.noticebox{
+	width: 100%;
+}
+	
+.linksbox{
+	width: 100%;
+}
+	
+.linksbox img{
+	width: 80%;
+	max-width: none;
+}
+	
+}
